@@ -655,7 +655,7 @@ class TemplateProcessor
          *  </w:p>
          * ```
          */
-        $this->temporaryDocumentMainPart = $xml->asXml();
+        $this->tempDocumentMainPart = $xml->asXml();
         // Find the xml in between the tags
         $xmlBlock = null;
         preg_match
